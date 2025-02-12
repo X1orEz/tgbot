@@ -23,7 +23,7 @@ tokenizer1 = T5Tokenizer.from_pretrained(model_name1)
 tokenizer2 = AutoTokenizer.from_pretrained("ai-forever/sage-fredt5-large")
 model2 = AutoModelForSeq2SeqLM.from_pretrained("ai-forever/sage-fredt5-large")
 
-bot = telebot.TeleBot('YOUR TOKKEN')
+bot = telebot.TeleBot('YOUR TOKEN')
 
 user_states = {}
 strana = ['Русский','Английский','Китайский']
